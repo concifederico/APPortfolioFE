@@ -18,3 +18,16 @@
   .carousel-item {
     transition: transform 1s ease, opacity .5s ease;
   }
+
+  .container-fluid {
+    margin-top: 10 !important;
+  }
+  
+  .center {
+    margin-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 20%;
+  
+  }
