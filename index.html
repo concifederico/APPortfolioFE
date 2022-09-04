@@ -43,7 +43,14 @@
         </a>
       </div>
       <div class="col-xl-1">
-        <button type="button" class="btn btn-primary">Login</button>
+        <button
+          id="btnlogin"
+          type="button"
+          class="btn btn-primary"
+          onclick="dologin()"
+        >
+          Login
+        </button>
       </div>
     </nav>
     <div class="container-fluid">
@@ -361,6 +368,41 @@
                     </tr>
                   </tbody>
                 </table>
+                <div id="expedit" class="card cinvisible">
+                  <form>
+                    <div class="form-group">
+                      <label for="exampleInputPassword1">Fecha</label>
+                      <input
+                        type="password"
+                        class="form-control"
+                        id="exampleInputPassword1"
+                        placeholder="Password"
+                      />
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleInputPassword1">Password</label>
+                      <input
+                        type="password"
+                        class="form-control"
+                        id="exampleInputPassword1"
+                        placeholder="Password"
+                      />
+                    </div>
+                    <div class="form-check">
+                      <input
+                        type="checkbox"
+                        class="form-check-input"
+                        id="exampleCheck1"
+                      />
+                      <label class="form-check-label" for="exampleCheck1"
+                        >Check me out</label
+                      >
+                    </div>
+                    <button type="submit" class="btn btn-primary">
+                      Agregar
+                    </button>
+                  </form>
+                </div>
               </div>
             </div>
           </div>
@@ -443,39 +485,39 @@
                 </div>
                 <div class="row">
                   <div class="col-sm-12">
-                  <div class="card">
-                    <div class="card-body">
-                      <h5 class="card-title">Otras capacitaciones</h5>
+                    <div class="card">
+                      <div class="card-body">
+                        <h5 class="card-title">Otras capacitaciones</h5>
 
-                      <div class="row p-2">
-                        <div class="col-sm-6">
-                          <ul class="card-text">
-                            <li>
-                              2021 Módulo 1 Argentina Programa #SeProgramar
-                            </li>
-                            <li>2018 Harinas y derivados - UBA</li>
-                            <li>2016 Negociación</li>
-                            <li>2014 Seguridad radiológica</li>
-                            <li>
-                              2010 Metodología para la investigación de
-                              accidentes
-                            </li>
-                          </ul>
-                        </div>
+                        <div class="row p-2">
+                          <div class="col-sm-6">
+                            <ul class="card-text">
+                              <li>
+                                2021 Módulo 1 Argentina Programa #SeProgramar
+                              </li>
+                              <li>2018 Harinas y derivados - UBA</li>
+                              <li>2016 Negociación</li>
+                              <li>2014 Seguridad radiológica</li>
+                              <li>
+                                2010 Metodología para la investigación de
+                                accidentes
+                              </li>
+                            </ul>
+                          </div>
 
-                        <div class="col-sm-6">
-                          <ul class="card-text">
-                            <li>2009 SLB CemLEADER - Kellyville, USA</li>
-                            <li>2007 SLB Tech School - Bottesford, UK</li>
-                            <li>2006 Gestión de operaciones</li>
-                            <li>2006 Marketing + Finanzas</li>
-                            <li>2005 AutoCAD</li>
-                          </ul>
+                          <div class="col-sm-6">
+                            <ul class="card-text">
+                              <li>2009 SLB CemLEADER - Kellyville, USA</li>
+                              <li>2007 SLB Tech School - Bottesford, UK</li>
+                              <li>2006 Gestión de operaciones</li>
+                              <li>2006 Marketing + Finanzas</li>
+                              <li>2005 AutoCAD</li>
+                            </ul>
+                          </div>
                         </div>
                       </div>
                     </div>
                   </div>
-                </div>
                 </div>
               </div>
             </div>
@@ -728,38 +770,45 @@
                   <tbody>
                     <tr class="align-middle">
                       <th scope="row">2018</th>
-                      <td>
-                        Reconocimiento SGI Bagley
-                      </td>
+                      <td>Reconocimiento SGI Bagley</td>
                     </tr>
                     <tr class="align-middle">
                       <th scope="row">2018</th>
-                      <td>
-                        Reconocimiento de Calidad Halliburton
-                      </td>
+                      <td>Reconocimiento de Calidad Halliburton</td>
                     </tr>
                     <tr class="align-middle">
                       <th scope="row">2013</th>
                       <td>
-                        <a href = "https://blogs.unc.edu.ar/egresados-distinguidos-unc/2012/10/30/conci-federico-sebastian/">Egresado Distinguido UNC</a>
+                        <a
+                          href="https://blogs.unc.edu.ar/egresados-distinguidos-unc/2012/10/30/conci-federico-sebastian/"
+                          >Egresado Distinguido UNC</a
+                        >
                       </td>
                     </tr>
                     <tr class="align-middle">
                       <th scope="row">2011</th>
+                      <td>Reconocimiento de Calidad Schlumberger</td>
+                    </tr>
+                    <tr class="align-middle">
+                      <th scope="row">2007</th>
                       <td>
-                        Reconocimiento de Calidad Schlumberger
+                        <a
+                          href="http://www.edutecne.utn.edu.ar/PPI-CAI/ppi-cai.htm#2006"
+                        >
+                          1er Premio Proyecto Pre Ingeniería Centro Argentino de
+                          Ingenieros</a
+                        >
                       </td>
                     </tr>
                     <tr class="align-middle">
                       <th scope="row">2007</th>
                       <td>
-                        <a href="http://www.edutecne.utn.edu.ar/PPI-CAI/ppi-cai.htm#2006"> 1er Premio Proyecto Pre Ingeniería Centro Argentino de Ingenieros</a>
-                      </td>
-                    </tr>
-                    <tr class="align-middle">
-                      <th scope="row">2007</th>
-                      <td>
-                        <a href = "https://acading.org.ar/premio-ing-isidoro-marin-a-los-mejores-egresados-de-carreras-de-ingenieria-de-universidades-argentinas/"> Mejor Promedio de Ingeniería UNC Academia Nacional de Ingeniería</a>
+                        <a
+                          href="https://acading.org.ar/premio-ing-isidoro-marin-a-los-mejores-egresados-de-carreras-de-ingenieria-de-universidades-argentinas/"
+                        >
+                          Mejor Promedio de Ingeniería UNC Academia Nacional de
+                          Ingeniería</a
+                        >
                       </td>
                     </tr>
                   </tbody>
@@ -778,6 +827,7 @@
 
       <script src="./bootstrap-5.2.0/dist/js/bootstrap.bundle.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script src="/app.js"></script>
 
       <script>
         var t0;

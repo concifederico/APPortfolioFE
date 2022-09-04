@@ -29,7 +29,6 @@
   .col-sm-12 {
     padding-right: .25rem;
     padding-left: .25rem;
-
   }
   
   .center {
@@ -38,5 +37,11 @@
     margin-left: auto;
     margin-right: auto;
     height: 20%;
-  
   }
+.cvisible{
+  display: block;
+}
+
+.cinvisible{
+  display: none;
+}
