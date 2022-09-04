@@ -12,15 +12,24 @@
     width: 100%;
     background-position: center center;
     background-repeat: no-repeat;
-    object-fit: cover;"
+    object-fit: cover;
   }
 
   .carousel-item {
     transition: transform 1s ease, opacity .5s ease;
   }
 
-  .container-fluid {
-    margin-top: 10 !important;
+  .col-sm-6 {
+    padding-right: .25rem;
+    padding-left: .25rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+  }
+
+  .col-sm-12 {
+    padding-right: .25rem;
+    padding-left: .25rem;
+
   }
   
   .center {
