@@ -8,6 +8,5 @@ function dologin() {
     document.getElementById("btnlogin").innerHTML = "Login";
     document.getElementById("btnlogin").className = "btn btn btn-primary";
     document.getElementById("expedit").className = "card cinvisible";
-    
   }
 }
